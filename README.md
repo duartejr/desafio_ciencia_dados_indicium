@@ -8,7 +8,7 @@ Objetivo:
  
  Descrição dos arquivos do projeto:
  
- ( O arquivo `01_analise_exploratoria.ipynb` contém a análise exploratória dos dados.
+ * O arquivo `01_analise_exploratoria.ipynb` contém a análise exploratória dos dados.
  * O arquivo `02_modelagem.ipynb` contém o processe de construção do modelo de seleção. Quatro modelos foram testados e no final escolhido o de melhor desempenho.
  * O arquivo `03_otimizacao_modelo.ipynb' contém as tentativas e melhorar o desempenho do modelo selecionado.
  * O arquivo `04_pipeline_modelo.ipynb`contém a construção da pipeline de execução do modelo.
