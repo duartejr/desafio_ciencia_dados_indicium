@@ -30,6 +30,7 @@ if __name__ == "__main__":
     x = pd.read_csv(input_data)
     modelo.fit(x)
     previsoes = modelo.previsao()
-    previsoes = pd.DataFrame(previsoes)
-    previsoes.to_csv('classificacoes_falhas.csv', index=False, header=None)
+    previsoes = pd.DataFrame(previsoes).reset_index()
+    previsoes.columns = ['rowNumber', 'predictedValues']
+    previsoes.to_csv('predicted.csv', index=False)
     print('done')
